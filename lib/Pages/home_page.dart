@@ -10,14 +10,15 @@ class Homepage extends StatelessWidget {
     // Text(),AppBar(),Drawer() are widgets
     return Scaffold(
       appBar: AppBar(
-        title:Text("Catalog App"),
+        title: Text("Catalog App"),
       ), //head
-      body: Center(// body
+      body: Center(
+        // body
         child: Container(
           child: Text("Welcome, $name to $days days of flutter"),
         ),
       ),
-      drawer: Drawer(),//footer -> bottom navigation bar/ drawer
+      drawer: Drawer(), //footer -> bottom navigation bar/ drawer
     );
   }
 }
